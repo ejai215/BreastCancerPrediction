@@ -1,5 +1,18 @@
-Azure Cloud is one of the primary options for cloud-based deployment of ML models, along with others such as AWS, GCP, Alibaba etc.
+## A demo implementation of ML in a classification problem
+ 
+A simple implementation of ML for breast cancer prediction with Python. The main program also has a demo with a simple web app. Accuracy of classification is not a concern here.
 
-## Why the use of the Azure App Service for this project?
+This is an updated clone that runs with Python 3.10.
 
-The Azure Web App provides a host service that developers can use it to develop mobile or web app. Apart from this the developer can use to build API apps or Logic apps, which provides integration with SaaS. It replaces several separate Azure services, which includes Azure Website, Azure Mobile services and Azure BizTalk services gives you a single product called Azure App services.
+The dataset is pulled from https://raw.githubusercontent.com/apogiatzis/breast-cancer-azure-ml-notebook/master/breast-cancer-data.csv
+
+
+## Interface with Azure as a web app
+
+The code can be used to run on Azure
+
+## Files
+
+app.py  The main file
+
+
